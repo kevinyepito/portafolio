@@ -1,0 +1,1 @@
+Este es mi portafolio hecho con HTML semántico, donde practiqué como organizar los elementos de una página web tratando de hacerlo lo más fiel a mi idea inicial (no se pudo, quedó muy feo), me familiaricé más con el CSS donde alineaba los elementos y añadí la posibilidad de ir a otros proyectos ya subidos en github pages desde este proyectos
