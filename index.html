@@ -6,82 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio
     </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="#informacion">acerca de mí</a></li>
-                <li><a href="#experiencia">experiencia profesional</a></li>
-                <li><a href="#proyectos">proyectos</a></li>
-            </ul>
+            <table id="contenidos">
+                <tr>
+                    <td><a href="#informacion" class="contenido">acerca de mí</a></td>
+                    <td><a href="#experiencia" class="contenido">experiencia profesional</a></td>
+                    <td><a href="#proyectos" class="contenido">proyectos</a></td>
+                </tr>
+            </table>
         </nav>
-
     </header>
+    <section id="main-container">
+        <section id="presentacion-container">
 
-    <body>
-        <article id="presentacion">
-            <div>
-                <h1>Kevin Yepes Quiceno</h1>
-                <h2>desarrollador full stack</h2>
-            </div>
+            <main>
 
-            <img id="foto-perfil" src="images/foto-perfil.jpg" alt="foto de perfil de kevin" ><a href="images/foto-perfil.jpg"></a>
-        </article>
 
-        <section id="informacion">
-            <p>Hola! soy una persona apasionada por el mundo del <strong>desarrollo de software</strong>, la naturaleza
-                y el deporte.</p>
-            <h2>habilidades</h2>
-            <ul>
-                <li>
-                    <p>HTML, CSS y JavaScript</p>
-                </li>
-                <li>
-                    <p>Java, Springboot/p>
-                </li>
-                <li>
-                    <p>python, GDScript</p>
-                </li>
-            </ul>
+                <article id="presentacion">
+                    <div id="nombre">
+                        <h1>Kevin Yepes Quiceno</h1>
+                        <h2>desarrollador full stack</h2>
+                    </div>
+
+                    <img id="foto-perfil" src="images/foto-perfil.jpg" alt="foto de perfil de kevin"><a
+                        href="images/foto-perfil.jpg"></a>
+                </article>
+
+                <article id="informacion">
+                    <p>Hola! soy una persona apasionada por el mundo del <strong>desarrollo de software</strong>, la
+                        naturaleza
+                        y el deporte.</p>
+                    <h2>habilidades</h2>
+                    <ul>
+                        <li>
+                            <p>HTML, CSS y JavaScript</p>
+                        </li>
+                        <li>
+                            <p>Java, Springboot/p>
+                        </li>
+                        <li>
+                            <p>python, GDScript</p>
+                        </li>
+                    </ul>
+                </article>
+
+                <article id="experiencia">
+                    <h2>Experiencia laboral</h2>
+                    <ol>
+                        <li>tres meses como barrendero en Microsoft donde aprendí un algoritmo que optimice el proceso
+                            de
+                            limpieza de las oficinas</li>
+                        <li>una semana como piloto para la guardia civil española hasta que choqué</li>
+                        <li>un día como guardaespaldas de Miguel Turbay</li>
+                    </ol>
+
+                </article>
+
+
+            </main>
+
         </section>
 
-        <section id="experiencia">
-            <h2>Experiencia laboral</h2>
-            <ol>
-                <li>tres meses como barrendero en Microsoft donde aprendí un algoritmo que optimice el proceso de
-                    limpieza de las oficinas</li>
-                <li>una semana como piloto para la guardia civil española hasta que choqué</li>
-                <li>un día como guardaespaldas de Miguel Turbay</li>
-            </ol>
 
-        </section>
 
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-            <article class="project">
-                <h3>página de eventos</h3>
-                <button><a href="https://kevinyepito.github.io/conferencia/" target="_blank">ver en vivo</a></button>
+        <aside>
+            <article id="proyectos">
+                
+                <h2>Proyectos</h2>
+                <div class="project">
+                    <h3>página de eventos</h3>
+                    <p>catalogo de conferencistas hecha con HTML y CSS aplicando una estructura organizada para crear
+                        los componentes</p>
+                    <img src="images/conferencia.png" alt="ilustración de proyecto de eventos">
+                    <button><a href="https://kevinyepito.github.io/conferencia/" target="_blank">ver en
+                            vivo</a></button>
+
+                </div>
+                <div class="project">
+                    <h3>hoja de vida</h3>
+                    <p>Simple HTML desorganizado hecho con el fin de aprender, incluye vídeo, imagen, audio, tabla,...
+                    </p>
+                    <img src="images/hoja-de-vida.png" alt="ilustración del proyecto hoja de vida">
+                    <button>
+                        <a href="https://kevinyepito.github.io/hoja-de-vida/" target="_blank">ver en vivo</a>
+
+                    </button>
+
+                </div>
 
             </article>
-            <article class="project">
-                <h3>hoja de vida</h3>
-                <button>
-                    <a href="https://kevinyepito.github.io/hoja-de-vida/" target="_blank">ver en vivo</a>
-                </button>
 
-            </article>
+        </aside>
+    </section>
 
-        </section>
-
-    </body>
 
     <footer>
-        <p>gracias por ver mi portafolio, acepto cualquier oferta</p>
+        <h2>Contactame</h2>
+        <div id="social-webs-container">
+            <div class="social-web hexagon"> <i class="bi bi-facebook" style="font-size: 30px; color: white;"></i></div>
+            <div class="social-web hexagon"> <i class="bi bi-twitter" style="font-size: 30px; color: white;"></i></div>
+            <div class="social-web hexagon"> <i class="bi bi-google" style="font-size: 30px; color: white;"></i></div>
+            <div class="social-web hexagon"> <i class="bi bi-linkedin" style="font-size: 30px; color: white;"></i></div>
+            <div class="social-web hexagon"> <i class="bi bi-instagram" style="font-size: 30px; color: white;"></i>
+            </div>
+        </div>
     </footer>
-
 
 </body>
 
