@@ -169,3 +169,12 @@ button:hover {
     transition: all 0.2s ease;
     background-color: #263D35;
 }
+
+/*para responsive*/
+*{
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
