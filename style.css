@@ -7,7 +7,7 @@
 
 :root {
     --color-claro: #f8efea;
-    --color-medio-1: #ffa9dd;
+    --color-medio-1: #b9a9ff;
     --color-medio-2: #885b93;
     --color-oscuro: #203152;
     --color-texto-1: #000000;
@@ -63,6 +63,7 @@ main {
     padding-top: 1rem;
     background-color: var(--color-medio-1);
     display: flex;
+    justify-content: center;
 
 }
 
