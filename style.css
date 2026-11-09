@@ -64,6 +64,7 @@ main {
     background-color: var(--color-medio-1);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -74,7 +75,7 @@ section {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-    margin-right: auto;;
+    margin-right: auto;
     width: 90%;
     max-width: 75%;
     border-radius: 1rem;
@@ -278,8 +279,8 @@ section h3 {
 /*aside-----------------------------------------------*/
 
 .lado-derecho {
-    width: 40%;
-    max-width: 40%;
+    width: 20%;
+    max-width: 20%;
 }
 
 aside {
@@ -289,6 +290,14 @@ aside {
     height: 100%;
     border-radius: 1rem;
     padding: 1rem;
+}
+
+@media (max-width: 64em) {
+    aside {
+        margin: 0.5rem;
+        width: 100vw;
+        height: auto;
+    }
 }
 
 .cielo-estrellado {
@@ -387,7 +396,7 @@ aside {
 }
 
 /*footer-----------------------------------------------------------*/
-footer{
+footer {
     background-color: var(--color-oscuro);
     display: flex;
     color: var(--color-texto-2);
