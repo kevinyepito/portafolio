@@ -223,6 +223,11 @@ section h3 {
     font-size: 0.85rem;
 }
 
+.proyectos-container details details details details summary{
+    background-color: var(--color-oscuro);
+    color: var(--color-claro);
+}
+
 .proyectos-container .card {
     background-color: var(--color-oscuro);
     color: var(--color-claro);
